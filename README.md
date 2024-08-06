@@ -6,12 +6,12 @@ This project aims to predict whether a person has diabetes based on various heal
 ## Dataset
 The dataset can be found [here](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset/data). It contains the following features:
 
-* Age: Age of the patient
-* Gender: Gender of the patient
-* BMI: Body mass index
+* Age: Age of the patient (numerical)
+* Gender: Gender of the patient (categorical)
+* BMI: Body mass index (numerical)
 * Hypertension: Presence of hypertension (boolean)
 * HeartDisease: Presence of heart disease (boolean)
-* SmokingHistory: History of smoking (Categorical: 'never', 'former', 'current', ...)
-* HbA1cLevel: Hemoglobin A1c level
-* BloodGlucoseLevel: Blood glucose level
+* SmokingHistory: History of smoking (categorical)
+* HbA1cLevel: Hemoglobin A1c level (numerical)
+* BloodGlucoseLevel: Blood glucose level (numerical)
 * Diabetes: Diabetes status (boolean)
