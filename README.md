@@ -23,6 +23,7 @@ The dataset was largely cleaned; however, we removed null values and addressed t
 * Sensitivity (true positive rate) is the probability of a positive test result, conditioned on the individual truly being positive.<br>
 * Specificity (true negative rate) is the probability of a negative test result, conditioned on the individual truly being negative.
 
+## Model Building and Evaluation (without oversampling)
 Given that only 11% of the dataset included individuals with diabetes, we implemented an oversampling technique. This approach led to an increase in specificity but a decrease in sensitivity. We evaluated various algorithms both with and without the application of oversampling.
 
 
