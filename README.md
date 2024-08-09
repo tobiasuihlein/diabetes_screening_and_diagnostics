@@ -36,13 +36,20 @@ Given that only 11% of the dataset included individuals with diabetes, we implem
 
 ##  Hyperparameter tuning (with oversampling)
 
+<img width="777" alt="Screenshot 2024-08-09 at 08 31 23" src="https://github.com/user-attachments/assets/e9c29738-1e2e-4f57-8a31-db4bac1cfcc8">
+
+
 
 
 
 ## Conclusion
+* Filling missing values with median can be a valid option
+* Higher number of trees does not automatically improve the model
+* Oversampling can improve sensitivity while decreasing specificity
 
 
 ## Additional links
+https://docs.google.com/presentation/d/1bGwimebjv2tiCOu6i-ZmnrG9b8XboAUu5IwIYmmtOVw/edit#slide=id.g2f140340185_0_168
 
 
 
