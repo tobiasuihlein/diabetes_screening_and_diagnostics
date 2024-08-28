@@ -1,4 +1,14 @@
 # Diabetes Prediction
+#### Contributors
+* Kaveri Chetia
+* Tobias Uihlein
+
+#### Techniques and Tools used in this project
+* Python including various libraries (Pandas, SkLearn, Seaborn)
+* Machine Learning Model Training and Testing
+* Oversampling
+* Hyperparameter tuning
+
 
 ## Introduction
 This project aims to predict whether a person has diabetes based on various health-related attributes.
