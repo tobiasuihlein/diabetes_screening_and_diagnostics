@@ -1,4 +1,4 @@
-# Diabetes Prediction
+# Diabetes Screening vs. Diagnostics
 #### Contributors
 * Kaveri Chetia
 * Tobias Uihlein
