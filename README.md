@@ -41,14 +41,14 @@ We evaluated various algorithms and found Random Forest and Gradient Boosting to
 
 <img width="707" alt="Screenshot 2024-08-08 at 16 46 26" src="https://github.com/user-attachments/assets/c4c08f38-2bbe-45c4-aa67-89173cac99fd">
 
-##  Hyperparameter tuning without oversampling
+##  Hyperparameter Tuning without Oversampling
 Next we tested the two models with different hyperparameters.
 We found parameter values providing a model with 99.9% specificity, which makes the model well suited for diagnostics.
 The highest sensitivity we could find, however, was only around 73%.
 
 <img width="772" alt="Screenshot 2024-08-08 at 16 51 10" src="https://github.com/user-attachments/assets/8381f554-880c-4a05-b889-1571f971d628">
 
-##  Hyperparameter tuning with oversampling
+##  Hyperparameter Tuning with Oversampling
 Given that only 11% of the dataset included individuals with diabetes, we implemented an oversampling technique.
 Again testing different hyperparameter values, we found a model performing with a sensitivity of 91.4%.
 
@@ -59,7 +59,7 @@ Again testing different hyperparameter values, we found a model performing with 
 * Using oversampling we could improve the sensitivity to up to 91.4% while decreasing specificity
 
 
-## Additional links
+## Additional Links
 * [Presentation Slides](https://docs.google.com/presentation/d/1bGwimebjv2tiCOu6i-ZmnrG9b8XboAUu5IwIYmmtOVw/edit#slide=id.g2f140340185_0_168)
 * [Dataset on Kaggle](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset/data)
 
